@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+:focus {
+  outline: 2px dotted red;
+  outline-offset: 3px;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.haeder {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  margin-right: auto;
+  display: flex;
+}
+.nav {
+  margin-left: 20px;
+}
+.nav__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+}
+.nav__item {
+}
+.nav__link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+  text-decoration: none;
+}
+
+.nav__link:hover{
+  opacity: .8;
+
+}
+.nav__link:active{
+  opacity: .6;
+}
+
+.header__form {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+.header__serach {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 3px;
+}
+
+.header__serach::placeholder {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+/* hero start */
+
+.hero {
+  padding-top: 140px;
+  padding-bottom: 185px;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 587px 565px;
+  background-position: bottom left calc(50% + 491px);
+  border-bottom: 2px solid rgba(221, 221, 221, 1)
+}
+.hero__container {
+}
+
+
+.info {
+  max-width: 490px;
+}
+.info__title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: #000;
+  margin-bottom: 30px;
+}
+.info__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(119, 119, 119, 1);
+  border-left: 3px solid #888;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.info__btn {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    padding: 12px 38px;
+    background-color: rgba(234, 98, 92, 1);
+    display: inline-block;
+
+
+}
+
+.info__btn:hover{
+  opacity: .8;
+
+}
+.info__btn:active{
+  opacity: .6;
+}
+
+
+
+
+.site-info {
+  padding-top: 68px;
+  padding-bottom: 140px;
+}
+.site-info__container {
+  display: flex;
+  gap: 80px;
+}
+.site-info__card {
+  max-width: 280px;
+}
+.site-info__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 30px;
+  color: rgba(34, 34, 34, 1);
+
+}
+.site-info__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 20px;
+}
+.site-info__rectangles {
+  display: flex;
+  gap: 10px;
+}
+.site-info__rectangle {
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+  display: inline-block;
+
+}
+
+
+.site-info__link{
+  color: rgba(234, 98, 92, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-info__link__line{
+  display: inline-block;
+  width: 40px;
+  height: 4px;
+  background-color: rgba(234, 98, 92, 1);
+  transition: all .3s;
+}
+
+.site-info__link:hover .site-info__link__line{
+  width: 60px;
+}
+
+/* qualiy start */
+
+.quality {
+  margin-bottom: 70px;
+}
+.quality__container {
+  display: flex;
+  justify-content: space-between;
+
+}
+.container {
+}
+.info {
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 20px;
+}
+.info__title {
+}
+.info__text {
+}
+.info__btn {
+}
+.quality__img {
+  width: 400px;
+  height: 600px;
+}
+
+/* qualiy end  */
+
+/* protection start */
+
+.protection {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url("../img/runners.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+}
+.container {
+}
+.protection__container {
+}
+.info.dark {
+  margin-left: auto;
+}
+.dark .info__title {
+  color: white;
+}
+.dark .info__text {
+  color: white;
+  border-left-color: white;
+}
+.info__btn {
+}
+/* protection end  */
