@@ -43,7 +43,17 @@ body {
 .header__logo {
   margin-right: auto;
   display: flex;
+
 }
+
+.header__logo:hover{
+  opacity: .8;
+}
+
+.header__logo:active{
+  opacity: .6;
+}
+
 .nav {
   margin-left: 20px;
 }
